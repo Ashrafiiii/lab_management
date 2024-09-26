@@ -1,0 +1,84 @@
+/* Apply a gradient background to the entire page */
+body {
+    background: linear-gradient(135deg, #5363ee, #3545d6);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(135deg, #0e1a27, #3545d6);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Main container styling */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    color: #000;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #5363ee;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #3545d6;
+}
+
+/* Form styling */
+form .form-group {
+    margin-bottom: 15px;
+}
+
+/* List group items */
+.list-group-item {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+/* Footer styling */
+footer {
+    background: #0e1a27;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.teacher-dashboard-header {
+    background: linear-gradient(to right, #5363ee, #3545d6);
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Student Dashboard Header */
+.student-dashboard-header {
+    background: linear-gradient(to right, #0e1a27, #3545d6);
+    color: #ffffff;
+    padding: 20px;
+}
